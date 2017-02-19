@@ -33,6 +33,11 @@ class TabularInput extends Widget
     public $columns = [];
 
     /**
+     * @var array
+     */
+    public $extraRows = [];
+
+    /**
      * @var integer maximum number of rows
      */
     public $max;
